@@ -6,6 +6,7 @@ import { getMessage } from './api/hello'
 import Card from '@/components/Card'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
