@@ -52,7 +52,7 @@ export default function Home() {
                   <Card data={data} />
                 </div>
               )}
-              <a href="/create" className={styles.btn}>Kirim Pesan <FontAwesomeIcon icon={faPaperPlane}/></a>
+              <Link href="/create" className={styles.btn}>Kirim Pesan <FontAwesomeIcon icon={faPaperPlane}/></Link>
             </>
           )}
         </div>
