@@ -187,6 +187,32 @@
   color: var(--bg-color);
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 5px 100px;
+  color: var(--color-secondary);
+}
+
+.footer p a{
+  transition: color .2s ease-in-out;
+  -webkit-transition: color .2s ease-in-out;
+  -moz-transition: color .2s ease-in-out;
+  -ms-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+}
+
+.footer p a:hover {
+  color: var(--color-primary);
+}
+
+.footer p {
+  font-size: 15px;
+}
+
 @media screen and (max-width: 860px) {
   .card_wrapper {
     grid-template-columns: 1fr 1fr;
@@ -194,6 +220,14 @@
 
   .btn {
     right: 15px;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  .footer {
+    padding: 5px 15px;
   }
 }
 

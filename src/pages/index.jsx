@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { getMessage } from './api/hello'
 import Card from '@/components/Card'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faCopyright, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -58,6 +58,9 @@ export default function Home() {
           )}
         </div>
       </main>
+      <footer className={styles.footer}>
+        <p><FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} Created with ❤️ ☕ by <Link href="https://instagram.com/ajnrji_">Me</Link> | All right reversed.</p>
+      </footer>
     </>
   )
 }
