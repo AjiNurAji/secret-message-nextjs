@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <ToastContainer position='top-right' theme='dark' />
+      <ToastContainer position='top-right' theme='dark' autoClose={5000} />
     </>
   )
 }

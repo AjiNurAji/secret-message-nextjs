@@ -25,11 +25,13 @@ export default function Create() {
       if(send.data) {
         setLoading(false)
         toast.success('Berhasil mengirim pesan!');
-        window.location.href = '/'
+        setTimeout(() => {
+          window.location.href = '/'
+        }, 5000)
       } else {
         setLoading(false)
         toast.error('Gagal mengirim pesan, siliahkan coba lagi!')
-      }
+      }git
     }
   }
 
