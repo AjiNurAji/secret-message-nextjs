@@ -195,6 +195,7 @@
   width: 100%;
   padding: 5px 100px;
   color: var(--color-secondary);
+  text-align: center;
 }
 
 .footer p a{
